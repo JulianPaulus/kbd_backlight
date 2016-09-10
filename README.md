@@ -15,6 +15,6 @@ Options:
 
   Set the level to <num> - must be between 0 and 100
 
-This is hardcoded to use /sys/class/leds/kbd_backlight/brightness.  If
+This is hardcoded to use /sys/class/leds/smc::kbd_backlight/brightness.  If
 your system does not use this file for backlight control, then this
 program isn't for you.
